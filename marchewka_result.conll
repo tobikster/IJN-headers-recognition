@@ -1,0 +1,46 @@
+1	Marchew	Marchewa	subst	subst	pl|gen|m1	0	pred	_	_
+2	zwyczajna	zwyczajny	adj	adj	sg|nom|f|pos	1	adjunct	_	_
+3	Daucus	Daucus	ign	ign	_	8	adjunct	_	_
+4	carota	carota	ign	ign	_	3	ne	_	_
+5	L	L	brev	brev	pun	4	ne	_	_
+6	.	.	interp	interp	_	5	abbrev_punct	_	_
+7	–	–	interp	interp	_	5	abbrev_punct	_	_
+8	gatunek	gatunek	subst	subst	sg|nom|m3	1	app	_	_
+9	rośliny	roślina	subst	subst	sg|gen|f	8	adjunct	_	_
+10	z	z	qub	qub	_	11	adjunct	_	_
+11	rodziny	rodzina	subst	subst	sg|gen|f	8	adjunct	_	_
+12	selerowatych	selerowate	subst	subst	pl|gen|n	11	adjunct	_	_
+13	.	.	interp	interp	_	1	punct	_	_
+
+1	Występuje	występować	verb	fin	sg|ter|imperf	0	pred	_	_
+2	w	w	prep	prep	acc|nwok	1	adjunct	_	_
+3	stanie	stan	subst	subst	sg|loc|m3	2	comp	_	_
+4	dzikim	dziki	subst	subst	sg|inst|m1	1	pd	_	_
+5	pospolicie	pospolicie	adv	adv	pos	4	adjunct	_	_
+6	na	na	prep	prep	acc	5	adjunct	_	_
+7	terenach	teren	subst	subst	pl|loc|m3	6	comp	_	_
+8	Europy	Europa	subst	subst	sg|gen|f	11	conjunct	_	_
+9	,	,	interp	interp	_	11	coord_punct	_	_
+10	Azji	Azja	subst	subst	sg|gen|f	11	conjunct	_	_
+11	i	i	conj	conj	_	7	adjunct	_	_
+12	północnej	północny	adj	adj	sg|gen|f|pos	13	adjunct	_	_
+13	Afryki	Afryka	subst	subst	sg|gen|f	11	conjunct	_	_
+14	.	.	interp	interp	_	1	punct	_	_
+
+1	Jest	być	verb	fin	sg|ter|imperf	0	pred	_	_
+2	również	również	qub	qub	_	1	adjunct	_	_
+3	rośliną	roślina	subst	subst	sg|inst|f	1	pd	_	_
+4	uprawną	uprawny	adj	adj	sg|acc|f|pos	3	adjunct	_	_
+5	.	.	interp	interp	_	1	punct	_	_
+
+1	W	w	prep	prep	acc|nwok	6	adjunct	_	_
+2	Polsce	Polska	subst	subst	sg|dat|f	1	comp	_	_
+3	w	w	prep	prep	acc|nwok	6	adjunct	_	_
+4	stanie	stan	subst	subst	sg|loc|m3	3	comp	_	_
+5	dzikim	dziki	subst	subst	sg|inst|m1	4	app	_	_
+6	jest	być	verb	fin	sg|ter|imperf	0	pred	_	_
+7	rośliną	roślina	subst	subst	sg|inst|f	6	pd	_	_
+8	bardzo	bardzo	adv	adv	pos	9	adjunct	_	_
+9	pospolitą	pospolity	adj	adj	sg|acc|f|pos	7	adjunct	_	_
+10	.	.	interp	interp	_	6	punct	_	_
+

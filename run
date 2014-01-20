@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for input in $( ls | grep .conll ); do
+	echo $input;
+	./headerRecognizer.py $input
+	echo;
+done

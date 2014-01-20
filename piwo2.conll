@@ -1,0 +1,21 @@
+1	Skrobia	skrobia	subst	subst	sg|nom|f	3	subj	_	_
+2	może	może	qub	qub	_	3	adjunct	_	_
+3	ulegać	ulegać	verb	inf	imperf	0	pred	_	_
+4	enzymatycznemu	enzymatyczny	adj	adj	sg|dat|m1|pos	5	adjunct	_	_
+5	rozszczepieniu	rozszczepienie	subst	subst	sg|dat|n	3	obj_th	_	_
+6	przez	przez	prep	prep	acc|nwok	5	adjunct	_	_
+7	amylazę	amylaza	subst	subst	sg|acc|f	11	conjunct	_	_
+8	ślinową	ślinowy	adj	adj	sg|acc|f|pos	7	adjunct	_	_
+9	,	,	interp	interp	_	11	coord_punct	_	_
+10	pleśnie	pleśń	subst	subst	pl|nom|f	11	conjunct	_	_
+11	lub	lub	conj	conj	_	6	comp	_	_
+12	diastazy	diastaza	subst	subst	sg|gen|f	11	conjunct	_	_
+13	słodu	słód	subst	subst	sg|gen|m3	12	adjunct	_	_
+14	(	(	interp	interp	_	15	punct	_	_
+15	obecnie	obecnie	adv	adv	pos	3	adjunct	_	_
+16	najczęściej	często	adv	adv	sup	3	adjunct	_	_
+17	stosowana	stosowany	adj	adj	sg|nom|f|pos	18	adjunct	_	_
+18	metoda	metoda	subst	subst	sg|nom|f	3	obj	_	_
+19	)	)	interp	interp	_	18	punct	_	_
+20	.	.	interp	interp	_	3	punct	_	_
+
