@@ -1,7 +1,8 @@
 #!/bin/bash
 
-for input in $( ls | grep .conll ); do
-	echo $input;
-	./headerRecognizer.py $input
-	echo;
-done
+if [ -f $1 ]
+then
+	cat $1 | maca-analyse morfeusz-nkjp --split -o xces | maca-convert -i xces  nkjp2skladnica -o conll -q > $1.conll
+	java -jar maltparser-1.7.2/maltparser-1.7.2.jar -c skladnica_liblinear_stackeager_final -i $1.conll -o $1_result.conll -m parse
+	python headerRecognizer.py $1_result.conll
+fi
