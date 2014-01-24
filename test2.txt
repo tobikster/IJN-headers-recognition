@@ -1,0 +1,3 @@
+Bash to jedna z najpopularniejszych powłok systemów uniksowych. Jest domyślną powłoką w większości dystrybucji systemu GNU/Linux oraz w systemie Mac OS X od wersji 10.3, istnieją także wersje dla większości systemów uniksowych. Bash jest także domyślną powłoką w środowisku Cygwin dla systemów Win32.
+
+Bash pozwala na pracę w trybie konwersacyjnym i w trybie wsadowym. Język basha umożliwia definiowanie aliasów, funkcji, zawiera konstrukcje sterujące przepływem (if, while, for, ...). Powłoka systemowa zachowuje historię wykonywanych poleceń i zapisuje ją domyślnie w pliku .bash_history w katalogu domowym użytkownika.

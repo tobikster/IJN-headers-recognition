@@ -1,8 +1,9 @@
 #!/bin/bash
 
-if [ -f $1 ]
-then
-	cat $1 | maca-analyse morfeusz-nkjp --split -o xces | maca-convert -i xces  nkjp2skladnica -o conll -q > $1.conll
-	java -jar maltparser-1.7.2/maltparser-1.7.2.jar -c skladnica_liblinear_stackeager_final -i $1.conll -o $1_result.conll -m parse
-	python headerRecognizer.py $1_result.conll
-fi
+#DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd `dirname $0`
+
+inputFileName=`basename $1`
+cat $1 | maca-analyse morfeusz-nkjp --split -o xces | maca-convert -i xces  nkjp2skladnica -o conll -q > $inputFileName.conll
+java -jar ./maltparser-1.7.2/maltparser-1.7.2.jar -c skladnica_liblinear_stackeager_final -i $inputFileName.conll -o ${inputFileName}_result.conll -m parse
+python headerRecognizer.py `echo ${inputFileName}_result.conll`
